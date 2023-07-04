@@ -132,7 +132,7 @@ class _$ValueKey implements ValueKey {
 
   @override
   String toString() {
-    return 'Key.value(value: $value)';
+    return 'ValueKey(value: $value)';
   }
 
   @override
@@ -263,7 +263,7 @@ class _$UniqueKey implements UniqueKey {
 
   @override
   String toString() {
-    return 'Key.unique()';
+    return 'UniqueKey()';
   }
 
   @override

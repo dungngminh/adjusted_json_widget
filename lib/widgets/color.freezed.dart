@@ -1939,7 +1939,7 @@ class _$MaterialColor implements MaterialColor {
 
   @override
   String toString() {
-    return 'Color.material(value: $value, swatch: $swatch)';
+    return 'MaterialColor(value: $value, swatch: $swatch)';
   }
 
   @override
