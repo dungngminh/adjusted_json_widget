@@ -264,7 +264,7 @@ class _$SliverGridDelegateWithFixedCrossAxisCount
 
   @override
   String toString() {
-    return 'SliverGridDelegate.count(crossAxisCount: $crossAxisCount, mainAxisSpacing: $mainAxisSpacing, crossAxisSpacing: $crossAxisSpacing, childAspectRatio: $childAspectRatio, mainAxisExtent: $mainAxisExtent)';
+    return 'SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: $crossAxisCount, mainAxisSpacing: $mainAxisSpacing, crossAxisSpacing: $crossAxisSpacing, childAspectRatio: $childAspectRatio, mainAxisExtent: $mainAxisExtent)';
   }
 
   @override
@@ -535,7 +535,7 @@ class _$SliverGridDelegateWithMaxCrossAxisExtent
 
   @override
   String toString() {
-    return 'SliverGridDelegate.extend(maxCrossAxisExtent: $maxCrossAxisExtent, mainAxisSpacing: $mainAxisSpacing, crossAxisSpacing: $crossAxisSpacing, childAspectRatio: $childAspectRatio, mainAxisExtent: $mainAxisExtent)';
+    return 'SliverGridDelegateWithMaxCrossAxisExtent(maxCrossAxisExtent: $maxCrossAxisExtent, mainAxisSpacing: $mainAxisSpacing, crossAxisSpacing: $crossAxisSpacing, childAspectRatio: $childAspectRatio, mainAxisExtent: $mainAxisExtent)';
   }
 
   @override

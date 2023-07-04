@@ -132,7 +132,7 @@ class _$ValueKey implements ValueKey {
 
   @override
   String toString() {
-    return 'ValueKey(value: $value)';
+    return 'ValueKey(value: "$value")';
   }
 
   @override

@@ -399,7 +399,7 @@ class _$FormObjectField implements FormObjectField {
 
   @override
   String toString() {
-    return 'FormField.object(key: $key, description: $description, value: $value)';
+    return 'FormField.object(key: "$key", description: $description, value: $value)';
   }
 
   @override
@@ -902,7 +902,7 @@ class _$FormStringField implements FormStringField {
 
   @override
   String toString() {
-    return 'FormField.string(key: $key, description: $description, value: $value)';
+    return 'FormField.string(key: "$key", description: "$description", value: "$value")';
   }
 
   @override
@@ -1147,7 +1147,7 @@ class _$FormBoolField implements FormBoolField {
 
   @override
   String toString() {
-    return 'FormField.bool(key: $key, description: $description, value: $value)';
+    return 'FormField.bool(key: "$key", description: "$description", value: $value)';
   }
 
   @override
@@ -1392,7 +1392,7 @@ class _$FormDoubleField implements FormDoubleField {
 
   @override
   String toString() {
-    return 'FormField.double(key: $key, description: $description, value: $value)';
+    return 'FormField.double(key: "$key", description: $description, value: $value)';
   }
 
   @override
@@ -1637,7 +1637,7 @@ class _$FormIntegerField implements FormIntegerField {
 
   @override
   String toString() {
-    return 'FormField.int(key: $key, description: $description, value: $value)';
+    return 'FormField.int(key: "$key", description: $description, value: $value)';
   }
 
   @override
@@ -1882,7 +1882,7 @@ class _$FormNumField implements FormNumField {
 
   @override
   String toString() {
-    return 'FormField.num(key: $key, description: $description, value: $value)';
+    return 'FormField.num(key: "$key", description: $description, value: $value)';
   }
 
   @override
@@ -2127,7 +2127,7 @@ class _$FormDateTimeField implements FormDateTimeField {
 
   @override
   String toString() {
-    return 'FormField.dateTime(key: $key, description: $description, value: $value)';
+    return 'FormField.dateTime(key: "$key", description: $description, value: $value)';
   }
 
   @override
@@ -2372,7 +2372,7 @@ class _$FormDurationField implements FormDurationField {
 
   @override
   String toString() {
-    return 'FormField.duration(key: $key, description: $description, value: $value)';
+    return 'FormField.duration(key: "$key", description: "$description", value: $value)';
   }
 
   @override

@@ -154,7 +154,7 @@ class _$_IconData implements _IconData {
 
   @override
   String toString() {
-    return 'IconData(codePoint: $codePoint, fontFamily: $fontFamily, fontPackage: $fontPackage, matchTextDirection: $matchTextDirection)';
+    return 'IconData(codePoint: $codePoint, fontFamily: "$fontFamily", fontPackage: "$fontPackage", matchTextDirection: $matchTextDirection)';
   }
 
   @override

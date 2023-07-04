@@ -387,7 +387,7 @@ class _$PopupMenuItem implements PopupMenuItem {
 
   @override
   String toString() {
-    return 'PopupMenuEntry.item(key: $key, value: $value, onTap: $onTap, enabled: $enabled, height: $height, padding: $padding, textStyle: $textStyle, mouseCursor: $mouseCursor, child: $child)';
+    return 'PopupMenuItem(key: $key, value: "$value", onTap: $onTap, enabled: $enabled, height: $height, padding: $padding, textStyle: $textStyle, mouseCursor: $mouseCursor, child: $child)';
   }
 
   @override
@@ -648,7 +648,7 @@ class _$PopupMenuDivider implements PopupMenuDivider {
 
   @override
   String toString() {
-    return 'PopupMenuEntry.divider(key: $key, height: $height)';
+    return 'PopupMenuDivider(key: $key, height: $height)';
   }
 
   @override
@@ -981,7 +981,7 @@ class _$CheckedPopupMenuItem implements CheckedPopupMenuItem {
 
   @override
   String toString() {
-    return 'PopupMenuEntry.checked(key: $key, value: $value, checked: $checked, enabled: $enabled, padding: $padding, height: $height, mouseCursor: $mouseCursor, child: $child)';
+    return 'CheckedPopupMenuItem(key: $key, value: "$value", checked: $checked, enabled: $enabled, padding: $padding, height: $height, mouseCursor: $mouseCursor, child: $child)';
   }
 
   @override

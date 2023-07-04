@@ -337,7 +337,7 @@ class _$Border implements Border {
 
   @override
   String toString() {
-    return 'ShapeBorder.border(top: $top, right: $right, bottom: $bottom, left: $left)';
+    return 'Border(top: $top, right: $right, bottom: $bottom, left: $left)';
   }
 
   @override
@@ -680,7 +680,7 @@ class _$BorderDirectional implements BorderDirectional {
 
   @override
   String toString() {
-    return 'ShapeBorder.directional(top: $top, start: $start, end: $end, bottom: $bottom)';
+    return 'BorderDirectional(top: $top, start: $start, end: $end, bottom: $bottom)';
   }
 
   @override
@@ -987,7 +987,7 @@ class _$RoundedRectangleBorder implements RoundedRectangleBorder {
 
   @override
   String toString() {
-    return 'ShapeBorder.roundedRectangle(side: $side, borderRadius: $borderRadius)';
+    return 'RoundedRectangleBorder(side: $side, borderRadius: $borderRadius)';
   }
 
   @override
@@ -1270,7 +1270,7 @@ class _$StadiumBorder implements StadiumBorder {
 
   @override
   String toString() {
-    return 'ShapeBorder.stadium(side: $side)';
+    return 'StadiumBorder(side: $side)';
   }
 
   @override
@@ -1558,7 +1558,7 @@ class _$OvalBorder implements OvalBorder {
 
   @override
   String toString() {
-    return 'ShapeBorder.oval(side: $side, eccentricity: $eccentricity)';
+    return 'OvalBorder(side: $side, eccentricity: $eccentricity)';
   }
 
   @override
@@ -1850,7 +1850,7 @@ class _$CircleBorder implements CircleBorder {
 
   @override
   String toString() {
-    return 'ShapeBorder.circle(side: $side, eccentricity: $eccentricity)';
+    return 'CircleBorder(side: $side, eccentricity: $eccentricity)';
   }
 
   @override
@@ -2152,7 +2152,7 @@ class _$ContinuousRectangleBorder implements ContinuousRectangleBorder {
 
   @override
   String toString() {
-    return 'ShapeBorder.continuousRectangle(side: $side, borderRadius: $borderRadius)';
+    return 'ContinuousRectangleBorder(side: $side, borderRadius: $borderRadius)';
   }
 
   @override
@@ -2456,7 +2456,7 @@ class _$BeveledRectangleBorder implements BeveledRectangleBorder {
 
   @override
   String toString() {
-    return 'ShapeBorder.beveledRectangle(side: $side, borderRadius: $borderRadius)';
+    return 'BeveledRectangleBorder(side: $side, borderRadius: $borderRadius)';
   }
 
   @override
@@ -2760,7 +2760,7 @@ class _$UnderlineInputBorder implements UnderlineInputBorder {
 
   @override
   String toString() {
-    return 'ShapeBorder.underlineInput(side: $side, borderRadius: $borderRadius)';
+    return 'UnderlineInputBorder(side: $side, borderRadius: $borderRadius)';
   }
 
   @override
@@ -3072,7 +3072,7 @@ class _$OutlineInputBorder implements OutlineInputBorder {
 
   @override
   String toString() {
-    return 'ShapeBorder.outlineInput(side: $side, borderRadius: $borderRadius, gapPadding: $gapPadding)';
+    return 'OutlineInputBorder(side: $side, borderRadius: $borderRadius, gapPadding: $gapPadding)';
   }
 
   @override
@@ -3329,7 +3329,7 @@ class _$InputBorderNone implements InputBorderNone {
 
   @override
   String toString() {
-    return 'ShapeBorder.noneInput()';
+    return 'InputBorderNone()';
   }
 
   @override
@@ -3656,7 +3656,7 @@ class _$StarBorder implements StarBorder {
 
   @override
   String toString() {
-    return 'ShapeBorder.star(side: $side, points: $points, innerRadiusRatio: $innerRadiusRatio, pointRounding: $pointRounding, valleyRounding: $valleyRounding, rotation: $rotation, squash: $squash)';
+    return 'StarBorder(side: $side, points: $points, innerRadiusRatio: $innerRadiusRatio, pointRounding: $pointRounding, valleyRounding: $valleyRounding, rotation: $rotation, squash: $squash)';
   }
 
   @override

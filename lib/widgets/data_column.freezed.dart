@@ -148,7 +148,7 @@ class _$_DataColumn implements _DataColumn {
 
   @override
   String toString() {
-    return 'DataColumn(label: $label, tooltip: $tooltip, numeric: $numeric)';
+    return 'DataColumn(label: $label, tooltip: "$tooltip", numeric: $numeric)';
   }
 
   @override

@@ -246,7 +246,7 @@ class _$_DropdownMenuItem implements _DropdownMenuItem {
 
   @override
   String toString() {
-    return 'DropdownMenuItem(key: $key, onTap: $onTap, value: $value, enabled: $enabled, alignment: $alignment, child: $child)';
+    return 'DropdownMenuItem(key: $key, onTap: $onTap, value: "$value", enabled: $enabled, alignment: $alignment, child: $child)';
   }
 
   @override

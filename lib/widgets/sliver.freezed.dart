@@ -1033,7 +1033,7 @@ class _$SliverAppBar implements SliverAppBar {
 
   @override
   String toString() {
-    return 'Sliver.appBar(key: $key, leading: $leading, automaticallyImplyLeading: $automaticallyImplyLeading, title: $title, actions: $actions, flexibleSpace: $flexibleSpace, bottom: $bottom, elevation: $elevation, scrolledUnderElevation: $scrolledUnderElevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, forceElevated: $forceElevated, backgroundColor: $backgroundColor, foregroundColor: $foregroundColor, primary: $primary, centerTitle: $centerTitle, excludeHeaderSemantics: $excludeHeaderSemantics, titleSpacing: $titleSpacing, collapsedHeight: $collapsedHeight, expandedHeight: $expandedHeight, floating: $floating, pinned: $pinned, snap: $snap, stretch: $stretch, stretchTriggerOffset: $stretchTriggerOffset, shape: $shape, toolbarHeight: $toolbarHeight, leadingWidth: $leadingWidth, toolbarTextStyle: $toolbarTextStyle, titleTextStyle: $titleTextStyle, forceMaterialTransparency: $forceMaterialTransparency)';
+    return 'SliverAppBar(key: $key, leading: $leading, automaticallyImplyLeading: $automaticallyImplyLeading, title: $title, actions: $actions, flexibleSpace: $flexibleSpace, bottom: $bottom, elevation: $elevation, scrolledUnderElevation: $scrolledUnderElevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, forceElevated: $forceElevated, backgroundColor: $backgroundColor, foregroundColor: $foregroundColor, primary: $primary, centerTitle: $centerTitle, excludeHeaderSemantics: $excludeHeaderSemantics, titleSpacing: $titleSpacing, collapsedHeight: $collapsedHeight, expandedHeight: $expandedHeight, floating: $floating, pinned: $pinned, snap: $snap, stretch: $stretch, stretchTriggerOffset: $stretchTriggerOffset, shape: $shape, toolbarHeight: $toolbarHeight, leadingWidth: $leadingWidth, toolbarTextStyle: $toolbarTextStyle, titleTextStyle: $titleTextStyle, forceMaterialTransparency: $forceMaterialTransparency)';
   }
 
   @override
@@ -2253,7 +2253,7 @@ class _$SliverAppBarMedium implements SliverAppBarMedium {
 
   @override
   String toString() {
-    return 'Sliver.appBarMedium(key: $key, leading: $leading, automaticallyImplyLeading: $automaticallyImplyLeading, title: $title, actions: $actions, flexibleSpace: $flexibleSpace, bottom: $bottom, elevation: $elevation, scrolledUnderElevation: $scrolledUnderElevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, forceElevated: $forceElevated, backgroundColor: $backgroundColor, foregroundColor: $foregroundColor, primary: $primary, centerTitle: $centerTitle, excludeHeaderSemantics: $excludeHeaderSemantics, titleSpacing: $titleSpacing, collapsedHeight: $collapsedHeight, expandedHeight: $expandedHeight, floating: $floating, pinned: $pinned, snap: $snap, stretch: $stretch, stretchTriggerOffset: $stretchTriggerOffset, shape: $shape, toolbarHeight: $toolbarHeight, leadingWidth: $leadingWidth, toolbarTextStyle: $toolbarTextStyle, titleTextStyle: $titleTextStyle)';
+    return 'SliverAppBarMedium(key: $key, leading: $leading, automaticallyImplyLeading: $automaticallyImplyLeading, title: $title, actions: $actions, flexibleSpace: $flexibleSpace, bottom: $bottom, elevation: $elevation, scrolledUnderElevation: $scrolledUnderElevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, forceElevated: $forceElevated, backgroundColor: $backgroundColor, foregroundColor: $foregroundColor, primary: $primary, centerTitle: $centerTitle, excludeHeaderSemantics: $excludeHeaderSemantics, titleSpacing: $titleSpacing, collapsedHeight: $collapsedHeight, expandedHeight: $expandedHeight, floating: $floating, pinned: $pinned, snap: $snap, stretch: $stretch, stretchTriggerOffset: $stretchTriggerOffset, shape: $shape, toolbarHeight: $toolbarHeight, leadingWidth: $leadingWidth, toolbarTextStyle: $toolbarTextStyle, titleTextStyle: $titleTextStyle)';
   }
 
   @override
@@ -3465,7 +3465,7 @@ class _$SliverAppBarLarge implements SliverAppBarLarge {
 
   @override
   String toString() {
-    return 'Sliver.appBarLarge(key: $key, leading: $leading, automaticallyImplyLeading: $automaticallyImplyLeading, title: $title, actions: $actions, flexibleSpace: $flexibleSpace, bottom: $bottom, elevation: $elevation, scrolledUnderElevation: $scrolledUnderElevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, forceElevated: $forceElevated, backgroundColor: $backgroundColor, foregroundColor: $foregroundColor, primary: $primary, centerTitle: $centerTitle, excludeHeaderSemantics: $excludeHeaderSemantics, titleSpacing: $titleSpacing, collapsedHeight: $collapsedHeight, expandedHeight: $expandedHeight, floating: $floating, pinned: $pinned, snap: $snap, stretch: $stretch, stretchTriggerOffset: $stretchTriggerOffset, shape: $shape, toolbarHeight: $toolbarHeight, leadingWidth: $leadingWidth, toolbarTextStyle: $toolbarTextStyle, titleTextStyle: $titleTextStyle)';
+    return 'SliverAppBarLarge(key: $key, leading: $leading, automaticallyImplyLeading: $automaticallyImplyLeading, title: $title, actions: $actions, flexibleSpace: $flexibleSpace, bottom: $bottom, elevation: $elevation, scrolledUnderElevation: $scrolledUnderElevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, forceElevated: $forceElevated, backgroundColor: $backgroundColor, foregroundColor: $foregroundColor, primary: $primary, centerTitle: $centerTitle, excludeHeaderSemantics: $excludeHeaderSemantics, titleSpacing: $titleSpacing, collapsedHeight: $collapsedHeight, expandedHeight: $expandedHeight, floating: $floating, pinned: $pinned, snap: $snap, stretch: $stretch, stretchTriggerOffset: $stretchTriggerOffset, shape: $shape, toolbarHeight: $toolbarHeight, leadingWidth: $leadingWidth, toolbarTextStyle: $toolbarTextStyle, titleTextStyle: $titleTextStyle)';
   }
 
   @override
@@ -4270,7 +4270,7 @@ class _$SliverToBoxAdapter implements SliverToBoxAdapter {
 
   @override
   String toString() {
-    return 'Sliver.toBoxAdapter(key: $key, child: $child)';
+    return 'SliverToBoxAdapter(key: $key, child: $child)';
   }
 
   @override
@@ -4869,7 +4869,7 @@ class _$SliverFillRemaining implements SliverFillRemaining {
 
   @override
   String toString() {
-    return 'Sliver.fillRemaining(key: $key, child: $child, hasScrollBody: $hasScrollBody, fillOverscroll: $fillOverscroll)';
+    return 'SliverFillRemaining(key: $key, child: $child, hasScrollBody: $hasScrollBody, fillOverscroll: $fillOverscroll)';
   }
 
   @override
@@ -5478,7 +5478,7 @@ class _$SliverFillViewport implements SliverFillViewport {
 
   @override
   String toString() {
-    return 'Sliver.fillViewport(key: $key, delegate: $delegate, viewportFraction: $viewportFraction, padEnds: $padEnds)';
+    return 'SliverFillViewport(key: $key, delegate: $delegate, viewportFraction: $viewportFraction, padEnds: $padEnds)';
   }
 
   @override
@@ -6073,7 +6073,7 @@ class _$SliverFixedExtentList implements SliverFixedExtentList {
 
   @override
   String toString() {
-    return 'Sliver.fixedExtentList(key: $key, delegate: $delegate, itemExtent: $itemExtent)';
+    return 'SliverFixedExtentList(key: $key, delegate: $delegate, itemExtent: $itemExtent)';
   }
 
   @override
@@ -6666,7 +6666,7 @@ class _$SliverOffstage implements SliverOffstage {
 
   @override
   String toString() {
-    return 'Sliver.offstage(key: $key, offstage: $offstage, sliver: $sliver)';
+    return 'SliverOffstage(key: $key, offstage: $offstage, sliver: $sliver)';
   }
 
   @override
@@ -7243,7 +7243,7 @@ class _$SliverList implements SliverList {
 
   @override
   String toString() {
-    return 'Sliver.list(key: $key, delegate: $delegate)';
+    return 'SliverList(key: $key, delegate: $delegate)';
   }
 
   @override
@@ -7840,7 +7840,7 @@ class _$SliverGrid implements SliverGrid {
 
   @override
   String toString() {
-    return 'Sliver.grid(key: $key, delegate: $delegate, gridDelegate: $gridDelegate)';
+    return 'SliverGrid(key: $key, delegate: $delegate, gridDelegate: $gridDelegate)';
   }
 
   @override
@@ -8443,7 +8443,7 @@ class _$SliverIgnorePointer implements SliverIgnorePointer {
 
   @override
   String toString() {
-    return 'Sliver.ignorePointer(key: $key, ignoring: $ignoring, ignoringSemantics: $ignoringSemantics, sliver: $sliver)';
+    return 'SliverIgnorePointer(key: $key, ignoring: $ignoring, ignoringSemantics: $ignoringSemantics, sliver: $sliver)';
   }
 
   @override
@@ -9051,7 +9051,7 @@ class _$SliverOpacity implements SliverOpacity {
 
   @override
   String toString() {
-    return 'Sliver.opacity(key: $key, opacity: $opacity, alwaysIncludeSemantics: $alwaysIncludeSemantics, sliver: $sliver)';
+    return 'SliverOpacity(key: $key, opacity: $opacity, alwaysIncludeSemantics: $alwaysIncludeSemantics, sliver: $sliver)';
   }
 
   @override
@@ -9653,7 +9653,7 @@ class _$SliverPadding implements SliverPadding {
 
   @override
   String toString() {
-    return 'Sliver.padding(key: $key, padding: $padding, sliver: $sliver)';
+    return 'SliverPadding(key: $key, padding: $padding, sliver: $sliver)';
   }
 
   @override
@@ -10251,7 +10251,7 @@ class _$SliverPrototypeExtentList implements SliverPrototypeExtentList {
 
   @override
   String toString() {
-    return 'Sliver.prototypeExtendList(key: $key, delegate: $delegate, prototypeItem: $prototypeItem)';
+    return 'SliverPrototypeExtentList(key: $key, delegate: $delegate, prototypeItem: $prototypeItem)';
   }
 
   @override
@@ -10895,7 +10895,7 @@ class _$SliverSafeArea implements SliverSafeArea {
 
   @override
   String toString() {
-    return 'Sliver.safeArea(key: $key, left: $left, top: $top, right: $right, bottom: $bottom, minimum: $minimum, sliver: $sliver)';
+    return 'SliverSafeArea(key: $key, left: $left, top: $top, right: $right, bottom: $bottom, minimum: $minimum, sliver: $sliver)';
   }
 
   @override
@@ -11569,7 +11569,7 @@ class _$SliverVisibility implements SliverVisibility {
 
   @override
   String toString() {
-    return 'Sliver.visibility(key: $key, sliver: $sliver, replacementSliver: $replacementSliver, visible: $visible, maintainState: $maintainState, maintainAnimation: $maintainAnimation, maintainSize: $maintainSize, maintainSemantics: $maintainSemantics, maintainInteractivity: $maintainInteractivity)';
+    return 'SliverVisibility(key: $key, sliver: $sliver, replacementSliver: $replacementSliver, visible: $visible, maintainState: $maintainState, maintainAnimation: $maintainAnimation, maintainSize: $maintainSize, maintainSemantics: $maintainSemantics, maintainInteractivity: $maintainInteractivity)';
   }
 
   @override
@@ -12237,7 +12237,7 @@ class _$SliverVisibilityMaintain implements SliverVisibilityMaintain {
 
   @override
   String toString() {
-    return 'Sliver.visibilityMaintain(key: $key, sliver: $sliver, replacementSliver: $replacementSliver, visible: $visible)';
+    return 'SliverVisibilityMaintain(key: $key, sliver: $sliver, replacementSliver: $replacementSliver, visible: $visible)';
   }
 
   @override

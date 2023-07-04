@@ -1065,7 +1065,7 @@ class _$AppBar implements AppBar {
 
   @override
   String toString() {
-    return 'PreferredSizeWidget.appBar(key: $key, leading: $leading, automaticallyImplyLeading: $automaticallyImplyLeading, title: $title, actions: $actions, flexibleSpace: $flexibleSpace, bottom: $bottom, elevation: $elevation, scrolledUnderElevation: $scrolledUnderElevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, shape: $shape, backgroundColor: $backgroundColor, foregroundColor: $foregroundColor, primary: $primary, centerTitle: $centerTitle, excludeHeaderSemantics: $excludeHeaderSemantics, titleSpacing: $titleSpacing, toolbarOpacity: $toolbarOpacity, bottomOpacity: $bottomOpacity, toolbarHeight: $toolbarHeight, leadingWidth: $leadingWidth, toolbarTextStyle: $toolbarTextStyle, titleTextStyle: $titleTextStyle, forceMaterialTransparency: $forceMaterialTransparency)';
+    return 'AppBar(key: $key, leading: $leading, automaticallyImplyLeading: $automaticallyImplyLeading, title: $title, actions: $actions, flexibleSpace: $flexibleSpace, bottom: $bottom, elevation: $elevation, scrolledUnderElevation: $scrolledUnderElevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, shape: $shape, backgroundColor: $backgroundColor, foregroundColor: $foregroundColor, primary: $primary, centerTitle: $centerTitle, excludeHeaderSemantics: $excludeHeaderSemantics, titleSpacing: $titleSpacing, toolbarOpacity: $toolbarOpacity, bottomOpacity: $bottomOpacity, toolbarHeight: $toolbarHeight, leadingWidth: $leadingWidth, toolbarTextStyle: $toolbarTextStyle, titleTextStyle: $titleTextStyle, forceMaterialTransparency: $forceMaterialTransparency)';
   }
 
   @override
@@ -1963,7 +1963,7 @@ class _$TabBar implements TabBar {
 
   @override
   String toString() {
-    return 'PreferredSizeWidget.tabBar(key: $key, tabs: $tabs, isScrollable: $isScrollable, onTap: $onTap, padding: $padding, indicatorColor: $indicatorColor, automaticIndicatorColorAdjustment: $automaticIndicatorColorAdjustment, indicatorWeight: $indicatorWeight, indicatorPadding: $indicatorPadding, indicator: $indicator, indicatorSize: $indicatorSize, dividerColor: $dividerColor, labelColor: $labelColor, labelStyle: $labelStyle, labelPadding: $labelPadding, unselectedLabelColor: $unselectedLabelColor, unselectedLabelStyle: $unselectedLabelStyle, dragStartBehavior: $dragStartBehavior, overlayColor: $overlayColor, mouseCursor: $mouseCursor, enableFeedback: $enableFeedback, physics: $physics, splashBorderRadius: $splashBorderRadius)';
+    return 'TabBar(key: $key, tabs: $tabs, isScrollable: $isScrollable, onTap: $onTap, padding: $padding, indicatorColor: $indicatorColor, automaticIndicatorColorAdjustment: $automaticIndicatorColorAdjustment, indicatorWeight: $indicatorWeight, indicatorPadding: $indicatorPadding, indicator: $indicator, indicatorSize: $indicatorSize, dividerColor: $dividerColor, labelColor: $labelColor, labelStyle: $labelStyle, labelPadding: $labelPadding, unselectedLabelColor: $unselectedLabelColor, unselectedLabelStyle: $unselectedLabelStyle, dragStartBehavior: $dragStartBehavior, overlayColor: $overlayColor, mouseCursor: $mouseCursor, enableFeedback: $enableFeedback, physics: $physics, splashBorderRadius: $splashBorderRadius)';
   }
 
   @override

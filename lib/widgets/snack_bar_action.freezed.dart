@@ -232,7 +232,7 @@ class _$_SnackBarAction implements _SnackBarAction {
 
   @override
   String toString() {
-    return 'SnackBarAction(key: $key, textColor: $textColor, disabledTextColor: $disabledTextColor, label: $label, onPressed: $onPressed)';
+    return 'SnackBarAction(key: $key, textColor: $textColor, disabledTextColor: $disabledTextColor, label: "$label", onPressed: $onPressed)';
   }
 
   @override

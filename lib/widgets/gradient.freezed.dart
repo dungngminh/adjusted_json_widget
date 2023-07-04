@@ -360,7 +360,7 @@ class _$LinearGradient implements LinearGradient {
 
   @override
   String toString() {
-    return 'Gradient.linear(begin: $begin, end: $end, colors: $colors, stops: $stops, tileMode: $tileMode, transform: $transform)';
+    return 'LinearGradient(begin: $begin, end: $end, colors: $colors, stops: $stops, tileMode: $tileMode, transform: $transform)';
   }
 
   @override
@@ -732,7 +732,7 @@ class _$RadialGradient implements RadialGradient {
 
   @override
   String toString() {
-    return 'Gradient.radial(center: $center, radius: $radius, colors: $colors, stops: $stops, tileMode: $tileMode, focal: $focal, focalRadius: $focalRadius, transform: $transform)';
+    return 'RadialGradient(center: $center, radius: $radius, colors: $colors, stops: $stops, tileMode: $tileMode, focal: $focal, focalRadius: $focalRadius, transform: $transform)';
   }
 
   @override
@@ -1094,7 +1094,7 @@ class _$SweepGradient implements SweepGradient {
 
   @override
   String toString() {
-    return 'Gradient.sweep(center: $center, startAngle: $startAngle, endAngle: $endAngle, colors: $colors, stops: $stops, tileMode: $tileMode, transform: $transform)';
+    return 'SweepGradient(center: $center, startAngle: $startAngle, endAngle: $endAngle, colors: $colors, stops: $stops, tileMode: $tileMode, transform: $transform)';
   }
 
   @override

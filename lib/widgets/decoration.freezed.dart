@@ -352,7 +352,7 @@ class _$BoxDecoration implements BoxDecoration {
 
   @override
   String toString() {
-    return 'Decoration.box(color: $color, image: $image, border: $border, borderRadius: $borderRadius, boxShadow: $boxShadow, gradient: $gradient, backgroundBlendMode: $backgroundBlendMode, shape: $shape)';
+    return 'BoxDecoration(color: $color, image: $image, border: $border, borderRadius: $borderRadius, boxShadow: $boxShadow, gradient: $gradient, backgroundBlendMode: $backgroundBlendMode, shape: $shape)';
   }
 
   @override
@@ -645,7 +645,7 @@ class _$ShapeDecoration implements ShapeDecoration {
 
   @override
   String toString() {
-    return 'Decoration.shape(color: $color, image: $image, gradient: $gradient, shadows: $shadows, shape: $shape)';
+    return 'ShapeDecoration(color: $color, image: $image, gradient: $gradient, shadows: $shadows, shape: $shape)';
   }
 
   @override

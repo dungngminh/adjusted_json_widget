@@ -247,7 +247,7 @@ class _$WidgetSpan implements WidgetSpan {
 
   @override
   String toString() {
-    return 'InlineSpan.widget(child: $child, alignment: $alignment, baseline: $baseline, style: $style)';
+    return 'WidgetSpan(child: $child, alignment: $alignment, baseline: $baseline, style: $style)';
   }
 
   @override
@@ -563,7 +563,7 @@ class _$TextSpan implements TextSpan {
 
   @override
   String toString() {
-    return 'InlineSpan.text(text: $text, children: $children, style: $style, mouseCursor: $mouseCursor, onTap: $onTap, semanticsLabel: $semanticsLabel, locale: $locale, spellOut: $spellOut)';
+    return 'TextSpan(text: "$text", children: $children, style: $style, mouseCursor: $mouseCursor, onTap: $onTap, semanticsLabel: "$semanticsLabel", locale: $locale, spellOut: $spellOut)';
   }
 
   @override

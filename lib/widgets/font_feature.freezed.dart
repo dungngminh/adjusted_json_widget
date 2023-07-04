@@ -121,7 +121,7 @@ class _$_FontFeature implements _FontFeature {
 
   @override
   String toString() {
-    return 'FontFeature(feature: $feature, value: $value)';
+    return 'FontFeature(feature: "$feature", value: $value)';
   }
 
   @override

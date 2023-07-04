@@ -164,7 +164,7 @@ class _$MemoryImage implements MemoryImage {
 
   @override
   String toString() {
-    return 'ImageProvider.bytes(bytes: $bytes, scale: $scale)';
+    return 'MemoryImage(bytes: $bytes, scale: $scale)';
   }
 
   @override
@@ -336,7 +336,11 @@ class _$AssetImage implements AssetImage {
 
   @override
   String toString() {
-    return 'ImageProvider.asset(path: $path, package: $package)';
+    return '''
+    AssetImage(
+      path: "$path",
+      package: "$package",
+    )''';
   }
 
   @override
@@ -526,7 +530,12 @@ class _$NetworkImage implements NetworkImage {
 
   @override
   String toString() {
-    return 'ImageProvider.network(url: $url, scale: $scale, headers: $headers)';
+    return '''
+    NetworkImage(
+      url: "$url",
+      scale: $scale, 
+      headers: $headers,
+    )''';
   }
 
   @override
