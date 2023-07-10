@@ -138,7 +138,7 @@ class _$GradientRotation implements GradientRotation {
 
   @override
   String toString() {
-    return 'GradientRotation(radians: $radians)';
+    return 'GradientRotation($radians)';
   }
 
   @override

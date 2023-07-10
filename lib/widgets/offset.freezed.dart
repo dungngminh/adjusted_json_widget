@@ -115,7 +115,7 @@ class _$_Offset implements _Offset {
 
   @override
   String toString() {
-    return 'Offset(dx: $dx, dy: $dy)';
+    return 'Offset($dx, $dy)';
   }
 
   @override

@@ -186,7 +186,7 @@ class _$LengthLimitingTextInputFormatter
 
   @override
   String toString() {
-    return 'TextInputFormatter.lengthLimiting(maxLength: $maxLength, maxLengthEnforcement: $maxLengthEnforcement)';
+    return 'TextInputFormatter.lengthLimiting($maxLength, maxLengthEnforcement: $maxLengthEnforcement)';
   }
 
   @override

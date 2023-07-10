@@ -113,7 +113,7 @@ class _$_Size implements _Size {
 
   @override
   String toString() {
-    return 'Size(width: $width, height: $height)';
+    return 'Size($width, $height)';
   }
 
   @override

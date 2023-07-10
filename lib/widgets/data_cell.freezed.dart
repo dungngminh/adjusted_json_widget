@@ -247,7 +247,7 @@ class _$_DataCell implements _DataCell {
 
   @override
   String toString() {
-    return 'DataCell(child: $child, placeholder: $placeholder, showEditIcon: $showEditIcon, onTap: $onTap, onLongPress: $onLongPress, onDoubleTap: $onDoubleTap)';
+    return 'DataCell($child, placeholder: $placeholder, showEditIcon: $showEditIcon, onTap: $onTap, onLongPress: $onLongPress, onDoubleTap: $onDoubleTap)';
   }
 
   @override

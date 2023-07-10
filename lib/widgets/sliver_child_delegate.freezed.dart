@@ -236,7 +236,7 @@ class _$SliverChildListDelegateFixed implements SliverChildListDelegateFixed {
 
   @override
   String toString() {
-    return 'SliverChildListDelegateFixed(children: $children, addAutomaticKeepAlives: $addAutomaticKeepAlives, addRepaintBoundaries: $addRepaintBoundaries, addSemanticIndexes: $addSemanticIndexes, semanticIndexOffset: $semanticIndexOffset)';
+    return 'SliverChildListDelegateFixed($children, addAutomaticKeepAlives: $addAutomaticKeepAlives, addRepaintBoundaries: $addRepaintBoundaries, addSemanticIndexes: $addSemanticIndexes, semanticIndexOffset: $semanticIndexOffset)';
   }
 
   @override

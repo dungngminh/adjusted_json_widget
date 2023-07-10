@@ -139,7 +139,7 @@ class _$_Rect implements _Rect {
 
   @override
   String toString() {
-    return 'Rect(left: $left, top: $top, right: $right, bottom: $bottom)';
+    return 'Rect($left, $top, $right, $bottom)';
   }
 
   @override

@@ -158,7 +158,7 @@ class _$MaterialStatePropertyAll implements MaterialStatePropertyAll {
 
   @override
   String toString() {
-    return 'MaterialStateProperty.all(color: $color)';
+    return 'MaterialStateProperty.all($color)';
   }
 
   @override

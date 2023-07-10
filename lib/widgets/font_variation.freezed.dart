@@ -120,7 +120,7 @@ class _$_FontVariation implements _FontVariation {
 
   @override
   String toString() {
-    return 'FontVariation(axis: "$axis", value: $value)';
+    return 'FontVariation("$axis", $value)';
   }
 
   @override

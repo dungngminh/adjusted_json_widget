@@ -135,7 +135,7 @@ class _$RadiusCircular implements RadiusCircular {
 
   @override
   String toString() {
-    return 'Radius.circular(radius: $radius)';
+    return 'Radius.circular($radius)';
   }
 
   @override
@@ -293,7 +293,7 @@ class _$RadiusElliptical implements RadiusElliptical {
 
   @override
   String toString() {
-    return 'Radius.elliptical(x: $x, y: $y)';
+    return 'Radius.elliptical($x, $y)';
   }
 
   @override

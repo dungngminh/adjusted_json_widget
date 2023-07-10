@@ -346,7 +346,7 @@ class _$ColorFilterMatrix implements ColorFilterMatrix {
 
   @override
   String toString() {
-    return 'ColorFilter.matrix(matrix: $matrix)';
+    return 'ColorFilter.matrix($matrix)';
   }
 
   @override

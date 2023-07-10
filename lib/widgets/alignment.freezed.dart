@@ -118,7 +118,7 @@ class _$_Alignment implements _Alignment {
 
   @override
   String toString() {
-    return 'Alignment(x: $x, y: $y)';
+    return 'Alignment($x, $y)';
   }
 
   @override

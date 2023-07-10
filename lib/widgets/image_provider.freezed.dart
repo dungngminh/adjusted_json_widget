@@ -532,7 +532,7 @@ class _$NetworkImage implements NetworkImage {
   String toString() {
     return '''
     NetworkImage(
-      url: "$url",
+      "$url",
       scale: $scale, 
       headers: $headers,
     )''';

@@ -115,7 +115,7 @@ class _$_Locale implements _Locale {
 
   @override
   String toString() {
-    return 'Locale(languageCode: $languageCode, countryCode: $countryCode)';
+    return 'Locale($languageCode, $countryCode)';
   }
 
   @override

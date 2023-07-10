@@ -407,7 +407,7 @@ class _$_Color implements _Color {
 
   @override
   String toString() {
-    return 'Color(value: $value)';
+    return 'Color($value)';
   }
 
   @override
@@ -785,7 +785,7 @@ class _$ColorARGB implements ColorARGB {
 
   @override
   String toString() {
-    return 'Color.fromARGB(a: $a, r: $r, g: $g, b: $b)';
+    return 'Color.fromARGB($a, $r, $g, $b)';
   }
 
   @override
@@ -1170,7 +1170,7 @@ class _$ColorRGBO implements ColorRGBO {
 
   @override
   String toString() {
-    return 'Color.fromRGBO(r: $r, g: $g, b: $b, opacity: $opacity)';
+    return 'Color.fromRGBO($r, $g, $b, $opacity)';
   }
 
   @override
@@ -1562,7 +1562,7 @@ class _$ColorAlphaBlend implements ColorAlphaBlend {
 
   @override
   String toString() {
-    return 'Color.alphaBlend(foreground: $foreground, background: $background)';
+    return 'Color.alphaBlend($foreground, $background)';
   }
 
   @override
@@ -1939,7 +1939,7 @@ class _$MaterialColor implements MaterialColor {
 
   @override
   String toString() {
-    return 'MaterialColor(value: $value, swatch: $swatch)';
+    return 'MaterialColor($value, $swatch)';
   }
 
   @override
@@ -2315,7 +2315,7 @@ class _$MaterialAccentColor implements MaterialAccentColor {
 
   @override
   String toString() {
-    return 'Color.materialAccentColor(value: $value, swatch: $swatch)';
+    return 'Color.materialAccentColor($value, $swatch)';
   }
 
   @override
