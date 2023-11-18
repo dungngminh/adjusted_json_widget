@@ -1,11 +1,11 @@
 name: json_widget
-description: A json widget package
-version: 0.1.0+1
+description: A json widget package for App Creaty
+version: 1.0.0+1
 publish_to: none
 
 environment:
-  sdk: ">=2.19.0 <3.0.0"
-  flutter: 3.7.11
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
 
 dependencies:
   collection: ^1.17.0

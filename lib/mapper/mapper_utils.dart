@@ -1109,10 +1109,10 @@ material.BorderSide? $borderSide(
   );
 }
 
-material.BorderRadius? $borderRadius(
+material.BorderRadius $borderRadius(
   widgets.BorderRadius? borderRadius,
 ) {
-  if (borderRadius == null) return null;
+  if (borderRadius == null) return material.BorderRadius.zero;
   return borderRadius.map(
     all: (value) => material.BorderRadius.all(
       $radius(value.radius)!,
@@ -1145,7 +1145,7 @@ material.ShapeBorder? $shapeBorder(
   return shapeBorder.map(
     roundedRectangle: (value) => material.RoundedRectangleBorder(
       side: $borderSide(context, value.side)!,
-      borderRadius: $borderRadius(value.borderRadius)!,
+      borderRadius: $borderRadius(value.borderRadius),
     ),
     border: (value) => material.Border(
       top: $borderSide(context, value.top)!,
@@ -1170,15 +1170,15 @@ material.ShapeBorder? $shapeBorder(
     ),
     continuousRectangle: (value) => material.ContinuousRectangleBorder(
       side: $borderSide(context, value.side)!,
-      borderRadius: $borderRadius(value.borderRadius)!,
+      borderRadius: $borderRadius(value.borderRadius),
     ),
     underlineInput: (value) => material.UnderlineInputBorder(
       borderSide: $borderSide(context, value.side)!,
-      borderRadius: $borderRadius(value.borderRadius)!,
+      borderRadius: $borderRadius(value.borderRadius),
     ),
     outlineInput: (value) => material.OutlineInputBorder(
       borderSide: $borderSide(context, value.side)!,
-      borderRadius: $borderRadius(value.borderRadius)!,
+      borderRadius: $borderRadius(value.borderRadius),
       gapPadding: value.gapPadding,
     ),
     star: (value) => material.StarBorder(
@@ -1192,7 +1192,7 @@ material.ShapeBorder? $shapeBorder(
     ),
     beveledRectangle: (value) => material.BeveledRectangleBorder(
       side: $borderSide(context, value.side)!,
-      borderRadius: $borderRadius(value.borderRadius)!,
+      borderRadius: $borderRadius(value.borderRadius),
     ),
     noneInput: (value) => material.InputBorder.none,
   );
@@ -1583,7 +1583,7 @@ material.ValueChanged<int>? $intSelection(
 ) {
   if (callback == null) return null;
   return (value) {
-    final option = callback.values[value];
+    final option = callback.values[value.toString()];
     if (option == null) return;
     $callback(context, option);
   };
@@ -2047,13 +2047,13 @@ material.TableBorder? $tableBorder(
       left: $borderSide(context, value.left)!,
       horizontalInside: $borderSide(context, value.horizontalInside)!,
       verticalInside: $borderSide(context, value.verticalInside)!,
-      borderRadius: $borderRadius(value.borderRadius)!,
+      borderRadius: $borderRadius(value.borderRadius),
     ),
     all: (value) => material.TableBorder.all(
       color: $color(context, value.color)!,
       width: value.width,
       style: $enum(value.style, material.BorderStyle.values)!,
-      borderRadius: $borderRadius(value.borderRadius)!,
+      borderRadius: $borderRadius(value.borderRadius),
     ),
     symmetric: (value) => material.TableBorder.symmetric(
       inside: $borderSide(context, value.inside)!,
@@ -3390,7 +3390,7 @@ material.Widget? $widget(
     magnifier: (value) => material.Magnifier(
       key: $key(value.key),
       additionalFocalPointOffset: $offset(value.additionalFocalPointOffset)!,
-      borderRadius: $borderRadius(value.borderRadius)!,
+      borderRadius: $borderRadius(value.borderRadius),
       filmColor: $color(context, value.filmColor)!,
       shadows: value.shadows
           .map((e) => $shadow(context, e)! as material.BoxShadow)
@@ -3707,8 +3707,8 @@ material.Widget? $widget(
       supportedDevices: value.supportedDevices == null
           ? null
           : {
-              for (var e in value.supportedDevices!)
-                $enum(e, gestures.PointerDeviceKind.values)!
+              for (final e in value.supportedDevices!)
+                $enum(e, gestures.PointerDeviceKind.values)!,
             },
       child: $widget(context, value.child),
     ),

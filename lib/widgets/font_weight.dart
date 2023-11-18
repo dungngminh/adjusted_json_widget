@@ -32,6 +32,6 @@ class FontWeight with _$FontWeight {
     FontWeight.w600(),
     FontWeight.w700(),
     FontWeight.w800(),
-    FontWeight.w900()
+    FontWeight.w900(),
   ];
 }

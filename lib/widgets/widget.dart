@@ -795,7 +795,7 @@ class Widget with _$Widget {
         offset: Offset(0, 2),
         spreadRadius: 0.75,
         color: Color.fromARGB(25, 0, 0, 0),
-      )
+      ),
     ])
         List<BoxShadow> shadows,
     @Default(Size(77.37, 37.9))
